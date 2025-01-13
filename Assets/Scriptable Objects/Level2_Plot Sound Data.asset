@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5806a91fec6fa458c67eddfffb196d, type: 3}
+  m_Name: Level2_Plot Sound Data
+  m_EditorClassIdentifier: 
+  Musics:
+  - clip: {fileID: 8300000, guid: c4ab6eadae3857849aa0dc392fc3b585, type: 3}
+    output: {fileID: 0}
+    name: Level2Plot
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  Sounds:
+  - clip: {fileID: 8300000, guid: 9169ce96eb4bd8c45a588a4bd9dde1df, type: 3}
+    output: {fileID: 0}
+    name: 0
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: de8f047ae5905ee4bbc9641dac5bb96d, type: 3}
+    output: {fileID: 0}
+    name: 1
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: d2f65a649e2047c4fbd9d975b2f9221a, type: 3}
+    output: {fileID: 0}
+    name: 2
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a21d8f75dc77c4c489f41c5fba2c3e8f, type: 3}
+    output: {fileID: 0}
+    name: 3
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: efac96c139c5fff42a9b7b6964ef15d6, type: 3}
+    output: {fileID: 0}
+    name: 4
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 44ff1aaa8334fef4183d2a569b0653e9, type: 3}
+    output: {fileID: 0}
+    name: 5
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7a91bc2626195d64a9f50ff5b01cb54d, type: 3}
+    output: {fileID: 0}
+    name: 6
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b5c90ad3595d11844ac458f52d5fca96, type: 3}
+    output: {fileID: 0}
+    name: 7
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a7ac65852402d7741beaafc5fa963cd5, type: 3}
+    output: {fileID: 0}
+    name: 8
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f7157afdbc44bab46a577691effad076, type: 3}
+    output: {fileID: 0}
+    name: 9
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 475151301c7a3354788838cb5f5ac6c2, type: 3}
+    output: {fileID: 0}
+    name: 10
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0851ed4889993d843a6d277e5b6d0f70, type: 3}
+    output: {fileID: 0}
+    name: 11
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 1d2496635da1f894b8bdfb58ce16be17, type: 3}
+    output: {fileID: 0}
+    name: 12
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6ace2fc736a2d8b43967c87fd8a0485d, type: 3}
+    output: {fileID: 0}
+    name: 13
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
