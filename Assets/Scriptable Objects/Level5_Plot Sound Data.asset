@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5806a91fec6fa458c67eddfffb196d, type: 3}
+  m_Name: Level5_Plot Sound Data
+  m_EditorClassIdentifier: 
+  Musics:
+  - clip: {fileID: 8300000, guid: 489a336cdb0f5c240a710ef410844f29, type: 3}
+    output: {fileID: 0}
+    name: Level5Plot
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0d9f7c6c286d6de4d96949e7ae9fdd93, type: 3}
+    output: {fileID: 0}
+    name: Level5Plot2
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  Sounds:
+  - clip: {fileID: 8300000, guid: d887634917e107444801360c01eba2be, type: 3}
+    output: {fileID: 0}
+    name: 0
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 69bb505637ce9bf42ac11ece6808b502, type: 3}
+    output: {fileID: 0}
+    name: 1
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c4d62fd1ac621fb40876093c57cf529b, type: 3}
+    output: {fileID: 0}
+    name: 2
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a028f3048913a6b4fbd9e38df1cca26c, type: 3}
+    output: {fileID: 0}
+    name: 3
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f310c404154055d45852e7d73b4842df, type: 3}
+    output: {fileID: 0}
+    name: 4
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: fa719a31278b76f49b44fe0cf319a8aa, type: 3}
+    output: {fileID: 0}
+    name: 5
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 17652ce6df42a67479ea7fd4dfba4c1f, type: 3}
+    output: {fileID: 0}
+    name: 6
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 5d218c07e400e354b888ec8ae089b3d1, type: 3}
+    output: {fileID: 0}
+    name: 7
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f24525fb32109e54597a65b5cd03dcc3, type: 3}
+    output: {fileID: 0}
+    name: 8
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0bf189ce13cc9a545aceca920709d5cf, type: 3}
+    output: {fileID: 0}
+    name: 9
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b8a94f5646d81514186759ffc1799562, type: 3}
+    output: {fileID: 0}
+    name: 10
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 9574d4bd3361def4299cb0fc7819d36c, type: 3}
+    output: {fileID: 0}
+    name: 11
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b58eedfe151192d4795a29bf028dfef1, type: 3}
+    output: {fileID: 0}
+    name: 12
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 35260d45ce1a6ef49997d16f166d8b2d, type: 3}
+    output: {fileID: 0}
+    name: 13
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: cd5a91eeb4e857f42afa9b9a7c429e77, type: 3}
+    output: {fileID: 0}
+    name: 14
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 03f47bd39487f2646b1f33693674e645, type: 3}
+    output: {fileID: 0}
+    name: 15
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: d7b565a3f7c12654eb79c95305b50483, type: 3}
+    output: {fileID: 0}
+    name: 16
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 04eaf6ec71f7f9648bf6246c5dbe18aa, type: 3}
+    output: {fileID: 0}
+    name: 17
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}

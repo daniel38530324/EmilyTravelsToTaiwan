@@ -323,7 +323,7 @@ public class Level1_GameManager : MonoBehaviour
     }
 
     IEnumerator Explain(){
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         explain_Image.SetActive(true);
     }
 
