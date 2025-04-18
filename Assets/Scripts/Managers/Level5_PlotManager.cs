@@ -62,7 +62,7 @@ public class Level5_PlotManager : MonoBehaviour
     }
 
     public void NextLevel(){
-        GameManager.Instance.ChangeScene("Level1_Game");
+        GameManager.Instance.ChangeScene("Level5_Game");
     }
 
     public void ReturnMainPage(){
