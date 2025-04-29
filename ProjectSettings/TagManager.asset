@@ -9,6 +9,8 @@ TagManager:
   - FxTemporaire
   - Option
   - Balloon
+  - Question
+  - End
   layers:
   - Default
   - TransparentFX
