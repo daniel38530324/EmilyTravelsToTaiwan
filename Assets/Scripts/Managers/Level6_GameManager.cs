@@ -49,7 +49,7 @@ public class Level6_GameManager : MonoBehaviour
     }
 
     private void Start() {
-        AudioManager.Instance.PlayMusic("Level1Game");
+        AudioManager.Instance.PlayMusic("Level6Game");
         UpdateLevel6_GameState(Level6_GameState.Explain);
     }
 
@@ -100,9 +100,11 @@ public class Level6_GameManager : MonoBehaviour
     public void CheckQuestion(bool isCorrect){
         if(isCorrect){
             good_Image.SetActive(true);
+            AudioManager.Instance.PlaySound("Correct");
         }
         else{
             bad_Image.SetActive(true);
+            AudioManager.Instance.PlaySound("Error");
         }
         StartCoroutine(CloseQuestion(isCorrect));
     }

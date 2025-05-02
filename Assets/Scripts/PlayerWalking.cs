@@ -7,7 +7,7 @@ public class PlayerWalking : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private InputReader inputReader;
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    //[SerializeField] private SpriteRenderer spriteRenderer;
 
     [Header("Setting")]
     [SerializeField] private float movementSpeed;
@@ -41,10 +41,10 @@ public class PlayerWalking : MonoBehaviour
 
         previousMovementInput = movementInput;
         if(previousMovementInput.x > 0){
-            spriteRenderer.flipX = true;
+            transform.GetChild(0).rotation = Quaternion.Euler(0, 180, 0);
         }
         else if(previousMovementInput.x < 0){
-            spriteRenderer.flipX = false;
+            transform.GetChild(0).rotation = Quaternion.Euler(0, 0, 0);
         }
     }
     
