@@ -12,5 +12,8 @@ public class Gradient : MonoBehaviour
         else if(SceneManager.GetActiveScene().name == "Level5_Plot"){
             Level5_PlotManager.Instance.ChangeBackground();
         }
+        else if(SceneManager.GetActiveScene().name == "Level7_Plot"){
+            Level7_PlotManager.Instance.ChangeBackground();
+        }
     }
 }
