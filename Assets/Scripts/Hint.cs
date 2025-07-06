@@ -13,6 +13,9 @@ public class Hint : MonoBehaviour
             Level4_GameManager.Instance.CloseQuestion();
             Level4_GameManager.Instance.UpdateLevel4_GameState(Level4_GameState.Mora);
         }
+        else if(SceneManager.GetActiveScene().name == "Level7_Game"){
+            Level7_GameManager.Instance.ChangeQuestion();
+        }
 
         gameObject.SetActive(false);
     }
