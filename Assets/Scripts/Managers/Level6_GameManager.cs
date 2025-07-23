@@ -27,7 +27,7 @@ public class Level6_GameManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject gameManager;
     [SerializeField] private GameObject player;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, explain_Button, return_Button, exit_Button, good_Image, bad_Image;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, explain_Button, return_Button, exit_Button, sound_Button, good_Image, bad_Image;
     [SerializeField] private GameObject[] questions;
 
     private int questionIndex;
@@ -65,6 +65,7 @@ public class Level6_GameManager : MonoBehaviour
                 explain_Button.SetActive(true);
                 return_Button.SetActive(true);
                 exit_Button.SetActive(true);
+                sound_Button.SetActive(true);
                 PlayerCanMove = true;
                 break;
             case Level6_GameState.Success:

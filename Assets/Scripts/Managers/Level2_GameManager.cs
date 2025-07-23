@@ -18,7 +18,7 @@ public class Level2_GameManager : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private GameObject gameManager;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, dialogue_Image, check_Button, submit_Button, explain_Button, return_Button, exit_Button;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, dialogue_Image, check_Button, submit_Button, explain_Button, return_Button, exit_Button, sound_Button;
     [SerializeField] private TMP_Text beer_Text, milk_Text, cookie_Text, appleJuice_Text, bread_Text, water_Text, laundryDetergent_Text, fail_Text;
     [SerializeField] private GameObject[] bucket_beers, bucket_milks, bucket_cookies, bucket_appleJuices, bucket_breads, bucket_waters, bucket_laundryDetergents;
 
@@ -63,6 +63,7 @@ public class Level2_GameManager : MonoBehaviour
                 dialogue_Image.SetActive(true);
                 check_Button.SetActive(true);
                 submit_Button.SetActive(true);
+                sound_Button.SetActive(true);
 
                 foreach (BoxCollider2D item in dragObjects)
                 {

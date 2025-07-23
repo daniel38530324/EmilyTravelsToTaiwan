@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Level7_Game Sound Data
   m_EditorClassIdentifier: 
   Musics:
-  - clip: {fileID: 8300000, guid: 6bbecf53231361b4db5905fdb318b4e6, type: 3}
-    output: {fileID: 0}
+  - clip: {fileID: 8300000, guid: e886c1f4a5fd1b044b323e697d7080bb, type: 3}
+    output: {fileID: -1026405090502281437, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Level7Game
-    volume: 0.2
+    volume: 0.1
     pitch: 1
     loop: 1
     playOnAwake: 1
     source: {fileID: 0}
   Sounds:
   - clip: {fileID: 8300000, guid: d3baf96b5e01aa942840982e8169a026, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 5511742567522203071, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Win
     volume: 0.1
     pitch: 1
@@ -31,7 +31,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: ce8a1a1e9eac0c3438cd1e7777952934, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 5511742567522203071, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Lose
     volume: 0.5
     pitch: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 4000cf336fa789742a6c60b007e389d0, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 5511742567522203071, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Correct
     volume: 1
     pitch: 1
@@ -47,7 +47,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: c5153d0e1ddaa314880faa9b94d343ab, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 5511742567522203071, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Error
     volume: 0.2
     pitch: 1
@@ -55,7 +55,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 987bf4e7f6d122948a7f60670df938c0, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 5511742567522203071, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Bomb
     volume: 0.8
     pitch: 1

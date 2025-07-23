@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class DragObject : MonoBehaviour
 {
@@ -36,9 +37,17 @@ public class DragObject : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.name == "Bucket"){
+        if(SceneManager.GetActiveScene().name == "Level2_Game"){
+            if(other.gameObject.name == "Bucket"){
             Level2_GameManager.Instance.UpdateCommodity(commodityName);
             Destroy(gameObject);
+            }
+        }
+        else if(SceneManager.GetActiveScene().name == "Level8_Game"){
+            if(other.gameObject.name == "Emily"){
+            Level8_GameManager.Instance.CheckClothes(commodityName);
+            Destroy(gameObject);
+            }
         }
     }
 }

@@ -27,7 +27,7 @@ public class Level7_GameManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject gameManager;
     [SerializeField] private GameObject player;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, explain_Button, return_Button, exit_Button, good_Image, bad_Image, health_Image, ball, bomb, bombEffect, smile;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, explain_Button, return_Button, exit_Button, sound_Button, good_Image, bad_Image, health_Image, ball, bomb, bombEffect, smile;
     [SerializeField] private GameObject[] questions, answers, spawnPoints;
     [SerializeField] private Sprite[] ballTextures;
     [SerializeField] private SpriteRenderer[] bodyTextures;
@@ -97,6 +97,7 @@ public class Level7_GameManager : MonoBehaviour
                 return_Button.SetActive(true);
                 exit_Button.SetActive(true);
                 health_Image.SetActive(true);
+                sound_Button.SetActive(true);
                 PlayerCanMove = true;
                 questions[0].transform.parent.gameObject.SetActive(true);
                 break;

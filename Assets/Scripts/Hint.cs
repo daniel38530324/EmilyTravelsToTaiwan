@@ -16,6 +16,9 @@ public class Hint : MonoBehaviour
         else if(SceneManager.GetActiveScene().name == "Level7_Game"){
             Level7_GameManager.Instance.ChangeQuestion();
         }
+        else if(SceneManager.GetActiveScene().name == "Level8_Game"){
+            Level8_GameManager.Instance.ChangeQuestion();
+        }
 
         gameObject.SetActive(false);
     }

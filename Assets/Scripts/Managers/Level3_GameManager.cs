@@ -20,7 +20,7 @@ public class Level3_GameManager : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private GameObject gameManager;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, good_Image, bad_Image, explain_Button, return_Button, exit_Button;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, good_Image, bad_Image, explain_Button, return_Button, exit_Button, sound_Button;
     [SerializeField] private TMP_Text chineseTarget_Text, englishTarget_Text, score_Text, fail_Text;
     [SerializeField] private Balloon[] balloons_Chinese, balloons_English;
 
@@ -59,6 +59,7 @@ public class Level3_GameManager : MonoBehaviour
                 explain_Button.SetActive(true);
                 return_Button.SetActive(true);
                 exit_Button.SetActive(true);
+                sound_Button.SetActive(true);
                 chineseTarget_Text.transform.parent.gameObject.SetActive(true);
                 englishTarget_Text.transform.parent.gameObject.SetActive(true);
                 score_Text.transform.parent.gameObject.SetActive(true);

@@ -12,6 +12,7 @@ public class Level1_PlotManager : MonoBehaviour
     [SerializeField] GameObject[] wordAndGrammars;
     [SerializeField] GameObject[] details;
 
+
     private void Awake() {
         if(Instance == null){
             Instance = this;

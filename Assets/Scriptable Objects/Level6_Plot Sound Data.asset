@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Level6_Plot Sound Data
   m_EditorClassIdentifier: 
   Musics:
-  - clip: {fileID: 8300000, guid: 0d9f7c6c286d6de4d96949e7ae9fdd93, type: 3}
-    output: {fileID: 0}
+  - clip: {fileID: 8300000, guid: e12c833ad99b387479acbc2d32cc7565, type: 3}
+    output: {fileID: -1026405090502281437, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: Level6Plot
-    volume: 0.1
+    volume: 0.13
     pitch: 1
-    loop: 0
+    loop: 1
     playOnAwake: 0
     source: {fileID: 0}
   Sounds:
   - clip: {fileID: 8300000, guid: eece32c97d53dda4d910e313f24e1fcd, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 0
     volume: 0.7
     pitch: 1
@@ -31,7 +31,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: b9f398ad90a7798488e90e6b87aec431, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 1
     volume: 0.7
     pitch: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: a5215a986c518c54ca6b249ed30cad30, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 2
     volume: 0.7
     pitch: 1
@@ -47,7 +47,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 240e90c005e253443b147bcb79aeb5ed, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 3
     volume: 0.7
     pitch: 1
@@ -55,7 +55,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 8420819879abbd34da7dd8b4347c4b9f, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 4
     volume: 0.7
     pitch: 1
@@ -63,7 +63,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 2e80c91035f0d7043a17372e017f2a15, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 5
     volume: 0.7
     pitch: 1
@@ -71,7 +71,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 1f0ab19c8fb7bbe49a0b82574fcae00d, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 6
     volume: 0.7
     pitch: 1
@@ -79,7 +79,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: dd6c693874377204b85da59087a3acb9, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 7
     volume: 0.7
     pitch: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 14be1fdd0aa60e94680d62d893827c21, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 8
     volume: 0.7
     pitch: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: aca96f633175d2940841f5ba7ad885f7, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 9
     volume: 0.7
     pitch: 1
@@ -103,7 +103,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: d01e59ee54b7f7546819632def5b586e, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 10
     volume: 0.7
     pitch: 1
@@ -111,7 +111,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: e08f26b5e5b64654e922b3876395d0df, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 11
     volume: 0.7
     pitch: 1
@@ -119,7 +119,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: d9e4559772df8684e8629c365dc9a517, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 12
     volume: 0.7
     pitch: 1
@@ -127,7 +127,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 82c90805240f85f4ab7a61adfbd8f030, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 13
     volume: 0.7
     pitch: 1
@@ -135,7 +135,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 318f402098ef2ef408b935efb4286a02, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 14
     volume: 0.7
     pitch: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 8377454fc92bbe742b06bc89fbc70fd0, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 15
     volume: 0.7
     pitch: 1
@@ -151,7 +151,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 377caf2c0f2f6e0458119718119d5b2a, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 16
     volume: 0.7
     pitch: 1
@@ -159,7 +159,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: ce5b66eb41f06d448b7c7a5e5e4ed934, type: 3}
-    output: {fileID: 0}
+    output: {fileID: 8532926683197772774, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: 17
     volume: 0.7
     pitch: 1

@@ -33,7 +33,7 @@ public class Level1_GameManager : MonoBehaviour
     [SerializeField] private MeshRenderer background;
     [SerializeField] private Image poewr_Image, DialogueBg_Image;
     [SerializeField] private Transform playerRespawnPos;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, health_Image, power_Image, explain_Button, return_Button, exit_Button, good_Image, bad_Image;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, health_Image, power_Image, explain_Button, return_Button, exit_Button, sound_Button, good_Image, bad_Image;
     [SerializeField] private TMP_Text health_Text, fail_Text;
     [SerializeField] private GameObject[] questions, batterys, cars;
     [SerializeField] private Transform[] batterySpawnPos;
@@ -104,6 +104,7 @@ public class Level1_GameManager : MonoBehaviour
                 explain_Button.SetActive(true);
                 return_Button.SetActive(true);
                 exit_Button.SetActive(true);
+                sound_Button.SetActive(true);
                 break;
             case Level1_GameState.Question1:
                 health_Image.SetActive(false);

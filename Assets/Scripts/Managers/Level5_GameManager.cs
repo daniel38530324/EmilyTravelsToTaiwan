@@ -20,7 +20,7 @@ public class Level5_GameManager : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private GameObject gameManager;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, dialogue_Image, score_Image, explain_Button, return_Button, exit_Button, good, bad;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, dialogue_Image, score_Image, explain_Button, return_Button, exit_Button, sound_Button, good, bad;
     [SerializeField] private SpriteRenderer expression;
     [SerializeField] private Animator teaAnimator;
     [SerializeField] private GameObject[] questions, options;
@@ -64,6 +64,7 @@ public class Level5_GameManager : MonoBehaviour
                 return_Button.SetActive(true);
                 exit_Button.SetActive(true);
                 score_Image.SetActive(true);
+                sound_Button.SetActive(true);
                 if(questionIndex > 0){
                     questions[questionIndex-1].SetActive(false);
                 }
@@ -83,6 +84,7 @@ public class Level5_GameManager : MonoBehaviour
                 return_Button.SetActive(false);
                 exit_Button.SetActive(false);
                 score_Image.SetActive(false);
+                sound_Button.SetActive(false);
  
                 expression.sprite = expressionSprites[expressionIndex];
                 break;

@@ -23,7 +23,7 @@ public class Level4_GameManager : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private GameObject gameManager;
-    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, mora_Image, moraSelf, moraOther, question_Image, good_Image, bad_Image, explain_Button, return_Button, exit_Button, emilyWord;
+    [SerializeField] private GameObject success_Image, fail_Image, explain_Image, mora_Image, moraSelf, moraOther, question_Image, good_Image, bad_Image, explain_Button, return_Button, exit_Button, sound_Button, emilyWord;
     [SerializeField] private TMP_Text score_Text, fail_Text;
     [SerializeField] private GameObject[] moraDisplays_Self, moraDisplays_Other, questions, gods, godBless, mistakeOptions;
 
@@ -82,6 +82,7 @@ public class Level4_GameManager : MonoBehaviour
                 explain_Button.SetActive(true);
                 return_Button.SetActive(true);
                 exit_Button.SetActive(true);
+                sound_Button.SetActive(true);
                 question_Image.SetActive(false);
                 moraSelf.SetActive(true);
                 moraOther.SetActive(true);

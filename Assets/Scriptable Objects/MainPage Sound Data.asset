@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Musics:
   - clip: {fileID: 8300000, guid: f5a27219b35bfc0429e77ab88ddc3b7f, type: 3}
-    output: {fileID: 0}
+    output: {fileID: -1026405090502281437, guid: 8b908c6fe43b9ae4fb3ef05d3c3e611b, type: 2}
     name: MainPage
     volume: 0.2
     pitch: 1
